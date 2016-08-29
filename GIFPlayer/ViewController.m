@@ -2,11 +2,12 @@
 //  ViewController.m
 //  GIFPlayer
 //
-//  Created by Almas on 16/8/29.
+//  Created by Ali on 16/8/29.
 //  Copyright © 2016年 Ali. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "CADisplayLineImageView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [CADisplayLineImageView disPlayGIFImageInView:self.view withFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) andGIFImageName:@"MyGIF.gif"];
+
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

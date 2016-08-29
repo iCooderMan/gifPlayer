@@ -13,6 +13,9 @@
 		703746021D74272200119D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703746001D74272200119D8A /* Main.storyboard */; };
 		703746041D74272200119D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703746031D74272200119D8A /* Assets.xcassets */; };
 		703746071D74272200119D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703746051D74272200119D8A /* LaunchScreen.storyboard */; };
+		705ADD8C1D742E4200DCA181 /* CADisplayLineImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 705ADD891D742E4200DCA181 /* CADisplayLineImage.m */; };
+		705ADD8D1D742E4200DCA181 /* CADisplayLineImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 705ADD8B1D742E4200DCA181 /* CADisplayLineImageView.m */; };
+		705ADD901D742E7500DCA181 /* MyGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 705ADD8F1D742E7500DCA181 /* MyGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		703746031D74272200119D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		703746061D74272200119D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		703746081D74272200119D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705ADD881D742E4200DCA181 /* CADisplayLineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLineImage.h; sourceTree = "<group>"; };
+		705ADD891D742E4200DCA181 /* CADisplayLineImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLineImage.m; sourceTree = "<group>"; };
+		705ADD8A1D742E4200DCA181 /* CADisplayLineImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLineImageView.h; sourceTree = "<group>"; };
+		705ADD8B1D742E4200DCA181 /* CADisplayLineImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLineImageView.m; sourceTree = "<group>"; };
+		705ADD8F1D742E7500DCA181 /* MyGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MyGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		703745F61D74272200119D8A /* GIFPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				705ADD871D742E4200DCA181 /* GIFPlayer */,
 				703745FA1D74272200119D8A /* AppDelegate.h */,
 				703745FB1D74272200119D8A /* AppDelegate.m */,
 				703745FD1D74272200119D8A /* ViewController.h */,
@@ -77,6 +86,26 @@
 				703745F81D74272200119D8A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		705ADD871D742E4200DCA181 /* GIFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				705ADD8E1D742E7500DCA181 /* TestImage */,
+				705ADD881D742E4200DCA181 /* CADisplayLineImage.h */,
+				705ADD891D742E4200DCA181 /* CADisplayLineImage.m */,
+				705ADD8A1D742E4200DCA181 /* CADisplayLineImageView.h */,
+				705ADD8B1D742E4200DCA181 /* CADisplayLineImageView.m */,
+			);
+			path = GIFPlayer;
+			sourceTree = "<group>";
+		};
+		705ADD8E1D742E7500DCA181 /* TestImage */ = {
+			isa = PBXGroup;
+			children = (
+				705ADD8F1D742E7500DCA181 /* MyGIF.gif */,
+			);
+			path = TestImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				703746071D74272200119D8A /* LaunchScreen.storyboard in Resources */,
+				705ADD901D742E7500DCA181 /* MyGIF.gif in Resources */,
 				703746041D74272200119D8A /* Assets.xcassets in Resources */,
 				703746021D74272200119D8A /* Main.storyboard in Resources */,
 			);
@@ -149,6 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705ADD8D1D742E4200DCA181 /* CADisplayLineImageView.m in Sources */,
+				705ADD8C1D742E4200DCA181 /* CADisplayLineImage.m in Sources */,
 				703745FF1D74272200119D8A /* ViewController.m in Sources */,
 				703745FC1D74272200119D8A /* AppDelegate.m in Sources */,
 				703745F91D74272200119D8A /* main.m in Sources */,
@@ -300,6 +332,7 @@
 				7037460D1D74272200119D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
