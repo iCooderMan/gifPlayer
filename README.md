@@ -1,5 +1,5 @@
 #GIFPlayer
-![GIF播放效果](http://git.oschina.net/uploads/images/2016/0830/125110_c3b1494e_727503.gif "在这里输入图片标题")
+![GIF播放效果](http://git.oschina.net/uploads/images/2016/0830/125110_c3b1494e_727503.gif "GIF播放效果")
 ### 只需调用 以下一句话
 
 ```
