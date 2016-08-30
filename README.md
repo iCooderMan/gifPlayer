@@ -1,4 +1,4 @@
-#GIFPlayer
+#GIFPlayer 只需一句话 播放大型GIF动画
 ### GIF播放效果
 ![GIF播放效果](http://git.oschina.net/uploads/images/2016/0830/125110_c3b1494e_727503.gif "GIF播放效果")
 ### 只需调用 以下一句话
